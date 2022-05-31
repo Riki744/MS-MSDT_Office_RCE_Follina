@@ -3,7 +3,7 @@
 <p> Hello Infosec/IT Admin reader, by the time I'm writing this you've already heard of this new 0-day vulnerability in Microsoft Office (CVE-2022-30190).
   Basically a remote code executon exists when MSDT - Microsoft Support Diagnostic Tool is called using the URL from application Word.</p>
   
- # Exploit
+ # Exploit DIY
   <ol>
     <li> Create word document .docx and import (OLE) object as Bitmap Image and save it</li>
     <li> Open .docx file as archive and copy over files <strong>\word\document.xml</strong> and <strong>\word\_rels\document.xml.rels</strong></li>
@@ -18,9 +18,9 @@
    
 ![image](https://user-images.githubusercontent.com/85706972/171281018-a4d69fac-fab3-4323-865c-bf6981fedefc.png)
 
-<li>Download <strong>index.html</strong> payload and I used python to create http server to download execute the file when word file is lunched</li>
+<li>Download <strong>index.html</strong> payload and I used python to create http server, from which payload will be downloaded and executed.</li>
 
-<li>Don't forget to put back both files that we extracted and edited back to .docx with 7-zip, so exploit could work </li>
+<li>Before lunching don't forget to put back both files that we extracted and edited back to .docx with 7-zip, so exploit could work </li>
 </br>
 
 ![image](https://user-images.githubusercontent.com/85706972/171277755-a05c0901-37ab-4d49-9b2f-45869ec9bd64.png)
