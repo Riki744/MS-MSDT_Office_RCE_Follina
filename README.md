@@ -1,7 +1,7 @@
 # MS-MSDT_Office_RCE_Follina
 
 <p> Hello Infosec/IT Admin reader, by the time I'm writing this you've already heard of this new 0-day vulnerability in Microsoft Office (CVE-2022-30190).
-  Basically a remote code executon exists when MSDT - Microsoft Support Diagnostic Tool is called using the URL from application Word.</p>
+  Basically a remote code execution exists when MSDT - Microsoft Support Diagnostic Tool is called using the URL from application Word.</p>
   
  # Exploit DIY
   <ol>
