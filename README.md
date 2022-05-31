@@ -35,7 +35,7 @@
   
 # Hunting 
  
-  <p> <li>To start hunt the possible exploit in enviornment we can use sigma rule - https://gist.github.com/matthewB-huntress/14ab9d309f25a05fc9305a8e7f351089 . For example if you can't search using ready sigma rule you can utilize sigmac that will create search query for your SIEM solution.
+  <p> <li>To start hunt the possible exploit in environment we can use sigma rule - https://gist.github.com/matthewB-huntress/14ab9d309f25a05fc9305a8e7f351089 . For example if you can't search using ready sigma rule you can utilize sigmac that will create search query for your SIEM solution.
     Also we can use Process Explorer to see what is process is started from WINWORD and how calc.exe was opened
     
 ![image](https://user-images.githubusercontent.com/85706972/171280361-311d8e7c-c564-40aa-b960-905b72df5e57.png)
