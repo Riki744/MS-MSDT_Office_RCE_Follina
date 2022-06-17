@@ -40,9 +40,9 @@
     
 ![image](https://user-images.githubusercontent.com/85706972/171280361-311d8e7c-c564-40aa-b960-905b72df5e57.png)
     
-# Mitigation    
-
-<li> Microsoft also have released workaround to delete "HKEY_CLASSES_ROOT\ms-msdt" and before you do it make sure it to back it as the time of writing there is no patch released yet </li>
+# Mitigation
+    
+<li>Microsoft have released official patch to fix this issues - here is more info on that - https://www.bitdefender.com/blog/hotforsecurity/microsoft-june-patch-tuesday-fixes-follina-zero-day-vulnerability/</li>
     
 
 # Reference
